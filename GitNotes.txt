@@ -1,0 +1,50 @@
+// GIT NOTES //
+
+1) Purposes of GIT
+
+- Creating Repositories (which is where everything is stored)
+
+- Allows Collaboration with other developers
+—————————————————————
+
+2) GITHUB
+
+- A popular tool for collaborating and hosting GIT Repositories
+
+- Cloning others’ repositories: allows for editing the repositories of other developers
+—————————————————————
+
+Creating a Repository in Terminal:
+1) mkdir project-winchester
+
+2) cd project-winchester
+
+3) git init
+
+4) pwd (to see where you are, currently)
+
+5) git branch -a
+—————————————————————
+Committing additions and/or changes
+
+6) touch matt.txt
+
+7) git status
+(will show any changes that have been made, that GIT is not tracking)
+
+8) git add matt.txt
+
+9) git add matt.txt
+
+10) git status 
+(to see whether or not GIT is tracking the changes recently submitted)
+
+11) git commit -m”leave a comment here so that you can read why you submitted this in the first place”
+(-m = “message”)
+
+12) git diff (will tell you exactly what you’ve changed)
+
+13) git push origin master (will finalize your changes)
+
+14) git log (shows all the commits you’ve made)
+

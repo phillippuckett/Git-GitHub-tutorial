@@ -1,0 +1,39 @@
+// TERMINAL NAVIGATION COMMANDS //
+How to verify whether or not you have git installed:
+git —version
+
+1) Where You Are
+pwd
+
+2) List
+ls
+
+3) Where You Want To Go
+cd ___
+
+4) Go Back a File
+cd ..
+
+5) Make Directory
+mkdir ___
+
+6) Make File
+touch ___
+
+
+7) Delete File
+rm ___
+
+8) Delete Directory
+rm -rf ___/
+
+
+9) Going to Home Directory
+cd ~
+
+10) To look at a file on the command line
+less
+
+15) git remote add origin (paste in the url provided by your new repository)
+
+16) git fetch origin (it will either report an error, or let you know that it was successful in connecting)
